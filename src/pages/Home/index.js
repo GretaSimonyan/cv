@@ -1,12 +1,25 @@
 import React from "react";
-import Header from '../../components/Header';
+import {
+    Cover,
+    Header,
+    About,
+    Skills,
+    ExpEd,
+    Portfolio,
+    Contact
+}from '../../components';
 
 function Home (){
     return(
-        <div>
-            Home paje
+        <>
+            <Cover/>
             <Header/>
-        </div>
+            <About/>
+            <Skills/>
+            <ExpEd/>
+            <Portfolio/>
+            <Contact/>
+        </>
     )
 }
 export default Home
