@@ -15,16 +15,11 @@ function reducer(state = initialState, action){
 
 const store = createStore(reducer);
 
-
 // console.log(store);
-
 // console.log(store.getState());
 
 // store.dispatch({type: 'INCREMENT'})
-
 // store.dispatch({type: 'DECREMENT'})
-
-
 
 class App extends React.Component{
     inc(){
