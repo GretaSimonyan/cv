@@ -14,24 +14,40 @@ import {
 } from "react-icons/fi";
 
 const HeadIcon = styled(View)`
+    display: flex;
     margin: 5px;
     padding: 5px 8px;
     color: white;
     letter-spacing: 2px;
     font-size: 15px;
-    &:hover{
-        text-shadow: 2px 2px 4px rgba(45,0,0,.4);
+    &:hover div{
+        opacity: 1;
     }
 `;
 
 function Header (){
     return(
-        <View flex fD='column' alignI="center" justC='center' >
-            <HeadIcon id='#about'><GoPerson/><View op='0'>About</View></HeadIcon>
-            <HeadIcon id='#skills'><Skil/><View>My skills</View></HeadIcon>
-            <HeadIcon id='#exp/ed'><GoMortarBoard/><View>Experience/Education</View></HeadIcon>
-            <HeadIcon id='#portfolio'><Port/><View>Portfolio</View></HeadIcon>
-            <HeadIcon id='#contact'><FiPhone/><View>Contact</View></HeadIcon>
+        <View flex fD='column' justC='center' >
+            <HeadIcon>
+                <GoPerson/>
+                <View op='0'>About</View>
+            </HeadIcon>
+            <HeadIcon>
+                <Skil/>
+                <View op='0'>My skills</View>
+            </HeadIcon>
+            <HeadIcon>
+                <GoMortarBoard/>
+                <View op='0'>Experience/Education</View>
+            </HeadIcon>
+            <HeadIcon>
+                <Port/>
+                <View op='0'>Portfolio</View>
+            </HeadIcon>
+            <HeadIcon>
+                <FiPhone/>
+                <View op='0'>Contact</View>
+            </HeadIcon>
         </View>
     )
 }
