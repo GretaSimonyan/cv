@@ -11,7 +11,7 @@ function About (){
                 <View>
                     <h1>About Me</h1>
                 </View>
-                <View fontSize='12px' lh='1.65' tAlign='justify'>
+                <View fontSize='20px' lh='1.65' tAlign='justify'>
                     For now I work on a project, where I create a website in programing language JS with use React library
                     and styled-components technology, you can see it in my GitHub profile.Also, I studied programming at the 
                     university for a year, the topic of my diploma was "Developing an Automatic Fluid Controller", which I 

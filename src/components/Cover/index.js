@@ -1,5 +1,6 @@
 import React from "react";
 import cov from '../../assets/images/landing1.jpg';
+import Header from '../Header';
 import {
     View,
     Text
@@ -21,12 +22,12 @@ function Cover (){
                 >
                     <View flex alignI="center" justC='center' fD='column' c='white'>
                         <Tada>
-                            <View fontSize='15px'>
+                            <View fontSize='20px'>
                                 Hi , I'm 
                             </View>
                         </Tada>
                         
-                        <Text fontSize='30px'>
+                        <Text fontSize='35px'>
                             <Fade top big cascade>
                                 Greta Simonyan
                             </Fade>
@@ -38,6 +39,8 @@ function Cover (){
                             </Fade>
                         </Text>
                     </View>
+                    <Header/>
+
             </View>
         </View>
     )

@@ -1,45 +1,45 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { createStore } from "redux";
-//import App from "./App.js";
+// import { createStore } from "redux";
+import App from "./App.js";
 
-const initialState = 0;
+// const initialState = 0;
 
-function reducer(state = initialState, action){
-    switch(action.type){
-        case 'INCREMENT': return state + 1;
-        case 'DECREMENT': return state - 1;
-        default : return state;
-    }
-}
+// function reducer(state = initialState, action){
+//     switch(action.type){
+//         case 'INCREMENT': return state + 1;
+//         case 'DECREMENT': return state - 1;
+//         default : return state;
+//     }
+// }
 
-const store = createStore(reducer);
+// const store = createStore(reducer);
 
-// console.log(store);
-// console.log(store.getState());
+// // console.log(store);
+// // console.log(store.getState());
 
-// store.dispatch({type: 'INCREMENT'})
-// store.dispatch({type: 'DECREMENT'})
+// // store.dispatch({type: 'INCREMENT'})
+// // store.dispatch({type: 'DECREMENT'})
 
-class App extends React.Component{
-    inc(){
-        store.dispatch({type: 'INCREMENT'})
-        this.forceUpdate()
-    }
-    dec(){
-        store.dispatch({type: 'DECREMENT'})
-        this.forceUpdate()
-    }
-    render(){
-        return(
-            <div>
-                <button onClick={this.dec.bind(this)}>-</button>
-                <span>{store.getState()}</span>
-                <button onClick={this.inc.bind(this)}>+</button>
-            </div>
-        )
-    }
-}
+// class App extends React.Component{
+//     inc(){
+//         store.dispatch({type: 'INCREMENT'})
+//         this.forceUpdate()
+//     }
+//     dec(){
+//         store.dispatch({type: 'DECREMENT'})
+//         this.forceUpdate()
+//     }
+//     render(){
+//         return(
+//             <div>
+//                 <button onClick={this.dec.bind(this)}>-</button>
+//                 <span>{store.getState()}</span>
+//                 <button onClick={this.inc.bind(this)}>+</button>
+//             </div>
+//         )
+//     }
+// }
 
 // class App extends React.Component{
 //     constructor(props){

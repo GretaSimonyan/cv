@@ -15,7 +15,7 @@ const Link = styled.a`
 
 function Header (){
     return(
-        <View flex alignI="center" justC='center' bgColor='#c2b1b1'>
+        <View flex fD='column' alignI="center" justC='center' >
             <View><Link href='#about'>About</Link></View>
             <View><Link href='#skills'>My skills</Link></View>
             <View><Link href='#exp/ed'>Experience/Education</Link></View>
