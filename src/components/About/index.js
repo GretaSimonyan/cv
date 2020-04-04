@@ -1,5 +1,6 @@
 import React from "react";
 // import styled from 'styled-components';
+import {GoPerson} from "react-icons/go";
 import {
     View
 }from '../../styled';

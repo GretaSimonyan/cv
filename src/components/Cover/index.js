@@ -1,6 +1,7 @@
 import React from "react";
 import cov from '../../assets/images/landing1.jpg';
 import Header from '../Header';
+import Contact from '../Contact';
 import {
     View,
     Text
@@ -20,6 +21,7 @@ function Cover (){
                 alignI="center"
                 justC='center'
                 >
+                    <Contact/>
                     <View flex alignI="center" justC='center' fD='column' c='white'>
                         <Tada>
                             <View fontSize='20px'>

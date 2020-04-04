@@ -3,10 +3,10 @@ import {
     Cover,
     // Header,
     About,
-    Skills,
-    ExpEd,
-    Portfolio,
-    Contact
+    // Skills,
+    // ExpEd,
+    // Portfolio,
+    // Contact
 }from '../../components';
 
 function Home (){
@@ -15,10 +15,10 @@ function Home (){
             <Cover/>
             {/* <Header/> */}
             <About/>
-            <Skills/>
-            <ExpEd/>
-            <Portfolio/>
-            <Contact/>
+            {/* <Skills/> */}
+            {/* <ExpEd/> */}
+            {/* <Portfolio/> */}
+            {/* <Contact/> */}
         </>
     )
 }

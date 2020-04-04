@@ -1,5 +1,6 @@
 import React from "react";
 // import styled from 'styled-components';
+import {GoMortarBoard} from "react-icons/go";
 import {
     View
 }from '../../styled';

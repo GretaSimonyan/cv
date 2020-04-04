@@ -1,5 +1,6 @@
 import React from "react";
 // import styled from 'styled-components';
+import {FiBriefcase} from "react-icons/fi";
 import {
     View
 }from '../../styled';
