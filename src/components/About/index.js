@@ -10,6 +10,7 @@ function About (){
         <View id='about' flex p='10px 0px' c='white' bgColor='#96b952' justC='center' alignI='center' boxS='border-box'>
             <View w='50%' flex alignI="center" fD="column">
                 <View>
+                    <GoPerson/>
                     <h1>About Me</h1>
                 </View>
                 <View fontSize='20px' lh='1.65' tAlign='justify'>

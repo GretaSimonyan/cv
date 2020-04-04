@@ -1,5 +1,5 @@
 import React from "react";
-// import styled from 'styled-components';
+import styled from 'styled-components';
 // import {
 //     GoMarkGithub, 
 //     GoMail
@@ -14,18 +14,21 @@ import {
     View
 }from '../../styled';
 
+const Link = styled.a`
+    margin: 8px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+`;
+
 function Contact (){
     return(
         <View id='contact' c='white'>
-            <View>
-                <h1>Contact</h1>
-            </View>
-            <View>
-                <View>Phone Number  •   +374 93 06 92 63 </View>
-                <View>Gmail  •   gsimonyan228@gmail.com</View>
-                <View>Linkedin  •  https://www.linkedin.com/in/greta-simonyan-a20492158/</View>
-                <View>GitHub  •  https://github.com/GretaSS</View>
-            </View>
+            <Link href="#+374 93 069 263"><FiPhone/></Link>
+            <Link href="gsimonyan228@gmail.com"><FiMail/></Link>
+            <Link href="https://www.linkedin.com/in/greta-simonyan-a20492158/"><FiLinkedin/></Link>
+            <Link href="https://github.com/GretaSS"><FiGithub/></Link>
         </View>
     )
 }

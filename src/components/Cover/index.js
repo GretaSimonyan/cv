@@ -2,12 +2,8 @@ import React from "react";
 import cov from '../../assets/images/landing1.jpg';
 import Header from '../Header';
 import Contact from '../Contact';
-import {
-    View,
-    Text
-}from '../../styled';
-import Tada from 'react-reveal/Tada';
-import Fade from 'react-reveal/Fade';
+import Greeting from '../Greeting';
+import {View} from '../../styled';
 
 function Cover (){
     return(
@@ -19,30 +15,18 @@ function Cover (){
                 bgRep='no-repeat' 
                 flex
                 alignI="center"
-                justC='center'
+                // justC='space-around'
+                fD='column'
                 >
-                    <Contact/>
-                    <View flex alignI="center" justC='center' fD='column' c='white'>
-                        <Tada>
-                            <View fontSize='20px'>
-                                Hi , I'm 
-                            </View>
-                        </Tada>
-                        
-                        <Text fontSize='35px'>
-                            <Fade top big cascade>
-                                Greta Simonyan
-                            </Fade>
-                        </Text>
-
-                        <Text lh='3'> 
-                            <Fade bottom>
-                                Front-End Junior Developer
-                            </Fade>
-                        </Text>
+                    <View alignS='flex-start'>
+                        <Contact/>
                     </View>
-                    <Header/>
-
+                    <View alignS='center'>
+                        <Greeting/>
+                    </View>
+                    <View alignS='flex-end'>
+                        <Header/>
+                    </View>
             </View>
         </View>
     )
