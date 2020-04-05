@@ -1,5 +1,4 @@
 import React from "react";
-// import styled from 'styled-components';
 import {GoPerson} from "react-icons/go";
 import {
     View
@@ -7,9 +6,18 @@ import {
 
 function About (){
     return(
-        <View id='about' flex p='10px 0px' c='white' bgColor='#96b952' justC='center' alignI='center' boxS='border-box'>
-            <View w='50%' flex alignI="center" fD="column">
-                <View>
+        <View id='about' flex justC='center' alignI='center' boxS='border-box'>
+            <View w='75%'
+                flex
+                alignI="center"
+                fD="column" 
+                p='9px' 
+                // bgColor='#f8ad44c4' 
+                bgColor='white' 
+                boxSh='0px 0px 10px 0px #f8f8f8' 
+                bRad='5px 0px'
+                >
+                <View flex justC='center' alignI='center' c='#f8ad44c4'>
                     <GoPerson/>
                     <h1>About Me</h1>
                 </View>
@@ -19,7 +27,7 @@ function About (){
                     university for a year, the topic of my diploma was "Developing an Automatic Fluid Controller", which I 
                     presented in Assembler programming language. It was rated excellent by the Admissions Committee․
                 </View>
-                <View>
+                <View fontSize='20px' lh='1.65'>
                     Interests/Hobies
                     - Photography
                     - Drawing

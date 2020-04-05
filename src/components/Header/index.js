@@ -19,7 +19,7 @@ const HeadIcon = styled(View)`
     padding: 5px 8px;
     color: white;
     letter-spacing: 2px;
-    font-size: 15px;
+    font-size: 20px;
     &:hover div{
         opacity: 1;
     }

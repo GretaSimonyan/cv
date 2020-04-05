@@ -2,7 +2,7 @@ import React from "react";
 import {
     Cover,
     // Header,
-    About,
+    // About,
     // Skills,
     // ExpEd,
     // Portfolio,
@@ -14,7 +14,7 @@ function Home (){
         <>
             <Cover/>
             {/* <Header/> */}
-            <About/>
+            {/* <About/> */}
             {/* <Skills/> */}
             {/* <ExpEd/> */}
             {/* <Portfolio/> */}
