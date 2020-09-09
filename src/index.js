@@ -32,6 +32,7 @@ class App extends React.Component{
         return(
             <div>
                 <button onClick={this.dec.bind(this)}>-</button>
+                <br></br>
                 <span>{store.getState()}</span>
                 <button onClick={this.inc.bind(this)}>+</button>
             </div>
