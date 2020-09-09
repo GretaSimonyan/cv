@@ -1,8 +1,8 @@
 import React from "react";
 import {
     Cover,
-    // Header,
-    // About,
+    Header,
+    About,
     // Skills,
     // ExpEd,
     // Portfolio,
@@ -13,8 +13,8 @@ function Home (){
     return(
         <>
             <Cover/>
-            {/* <Header/> */}
-            {/* <About/> */}
+            <Header/>
+            <About/>
             {/* <Skills/> */}
             {/* <ExpEd/> */}
             {/* <Portfolio/> */}
